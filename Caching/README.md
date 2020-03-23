@@ -1,26 +1,25 @@
 ## **Caching (using different ways: EhCache, Redis, Apache Geode)**
 
-Tutorial:
+**Tutorial:**
 - https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/
 - https://www.youtube.com/watch?v=ccfQ1j4suN0
 
-Ehcache:
+**Ehcache:**
 
 - https://www.baeldung.com/spring-boot-ehcache
 - https://springframework.guru/using-ehcache-3-in-spring-boot/
 - https://www.baeldung.com/spring-boot-evict-cache
 
-Redis:
+**Redis:**
 
 - https://dzone.com/articles/running-redis-on-windows-10 (redis installation)
 - https://programmerfriend.com/ultimate-guide-to-redis-cache-with-spring-boot-2-and-spring-data-redis/
 
-Apache Geode
+**Apache Geode**
 - https://www.youtube.com/watch?v=qUs3ftvsEoU
 - http://www.ynovytskyy.com/2018/03/15/apache-geode-pivotal-gemfire-with-spring-data.html
 
 ## **What are the difference between using EhCache v.s. Redis/Geode? When should use EhCache and when should use Redis/Geode?**
-
  
 - You can think Redis as a shared data structure, while Ehcache is a memory block storing serialized data objects. This is the main difference.
 
@@ -33,3 +32,26 @@ Apache Geode
 - Redis is primarily a standalone Key-Value store, driven by Salvatore Sanfilippo, HA and sharding options (Sentinel, Cluster) were built at a much later time. Redis is blazing fast, and if you favor performance over consistency, Redis is a good choice. Redis only security feature is password-based authentication, but you would rather secure it on transport-level which requires additional effort. There's no support besides the community or if you opt for a commercial Redis product (such as RedisLabs).
 
 - Geode (Open-Sourced Pivotal GemFire about a year ago, nowadays GemFire is based on Geode) is a product driven by Pivotal for many years. It's built with consistency, HA, and data distribution in mind – call it an in-memory data grid. The security layer of Geode is extensible and pluggable so you can tailor it to your needs. If you want to get commercial support, then Pivotal can serve you with your needs.
+
+## **Use Cases For An In-Memory Data Grid (Geode)**
+
+**Transaction Processing:**
+
+- Support extremely large numbers of concurrent transactions.
+- More reliable, scalable and faster transactional experience for customers
+
+**Event Notification and Processing:**
+
+- Able to process live and historical data sets quickly enough to make this kind of analysis possible.
+- Fast, continuous querying capability.
+
+**Highly Available, Distributed Caching:**
+
+- Can serve as a caching layer for existing application, providing fast recall of frequently accessed data.
+- Able to serve requests despite server outages and across WAN connections.
+- Thus, allow continuous availability with very low-latency, supporting sophisticated caching solutions ranging from web session caching to mainframe offloading.
+
+**Compute/Data Grid:**
+
+- Able to process very large data streams in-memory, without transferring the data to a separate analytics system
+- Allows for fast access and rich data analysis.
