@@ -1,4 +1,4 @@
-#### **Caching (using different ways: EhCache, Redis, Apache Geode)**
+## **Caching (using different ways: EhCache, Redis, Apache Geode)**
 
 Tutorial:
 - https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/
@@ -19,7 +19,7 @@ Apache Geode
 - https://www.youtube.com/watch?v=qUs3ftvsEoU
 - http://www.ynovytskyy.com/2018/03/15/apache-geode-pivotal-gemfire-with-spring-data.html
 
-#### **What are the difference between using EhCache v.s. Redis/Geode? When should use EhCache and when should use Redis/Geode?**
+## **What are the difference between using EhCache v.s. Redis/Geode? When should use EhCache and when should use Redis/Geode?**
 
  
 - You can think Redis as a shared data structure, while Ehcache is a memory block storing serialized data objects. This is the main difference.
@@ -28,7 +28,7 @@ Apache Geode
 
 - If your project is only Java, i.e. not multilingual, Ehcache is a convenient solution.
 
-#### **Redis v.s. Geode**
+## **Redis v.s. Geode**
 
 - Redis is primarily a standalone Key-Value store, driven by Salvatore Sanfilippo, HA and sharding options (Sentinel, Cluster) were built at a much later time. Redis is blazing fast, and if you favor performance over consistency, Redis is a good choice. Redis only security feature is password-based authentication, but you would rather secure it on transport-level which requires additional effort. There's no support besides the community or if you opt for a commercial Redis product (such as RedisLabs).
 
