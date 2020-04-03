@@ -1,16 +1,16 @@
 ## **Caching with Spring Boot (EhCache, Redis, Apache Geode)**
 
 ## **Concept of Caching**
-![](.README_images/concept of caching.png)
+![](.README_images/ConceptOfCaching.png)
 
 ## **Concept of Local Caching (embedded)**
-![](.README_images/concept of local caching.png)
+![](.README_images/conceptOfLocalCaching.png)
 
 ## **Concept of Distributed Caching (client-server)**
-![](.README_images/concept of distributed caching.png)
+![](.README_images/conceptOfDistributedCaching.png)
 
 ## **Pros & Cons**
-![](.README_images/pros&cons.png)
+![](.README_images/prosCons.png)
 
 ## **Learning Resources**
 **General Links and Tutorial:**
