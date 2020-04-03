@@ -43,4 +43,4 @@
 ## **What are the differencec between using EhCache v.s. Redis/Geode?**
  
 - EhCache is for **local caching**. In a microservices architecture, it means that what you cache is only for your own own and is not shareable with other peer application.
-- Redis/Geode is for distributed caching. That means let's say I have 5 instances of a CRM Application (or we call it Customer MS), all 5 of them will construct their cache at Redis/Geode servers and be able to share the cache.
+- Redis/Geode is for **distributed caching**. That means let's say I have 5 instances of a CRM Application (or we call it Customer MS), all 5 of them will construct their cache at Redis/Geode servers and be able to share the cache.
