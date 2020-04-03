@@ -1,4 +1,4 @@
-## **Caching with Spring Boot (EhCache, Redis, Apache Geode)**
+# **Caching with Spring Boot (EhCache, Redis, Apache Geode)**
 
 ## **Concept of Caching**
 ![](.README_images/ConceptOfCaching.png)
