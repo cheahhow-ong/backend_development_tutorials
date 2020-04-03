@@ -1,0 +1,209 @@
+
+[info 2020/03/30 15:54:32.054 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:25568)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:25568)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 15:55:18.124 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:11352)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:11352)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 15:56:15.716 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:11352)<ec><v0>:41000 
+
+[info 2020/03/30 15:59:54.657 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:19872)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:19872)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:00:22.030 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(YellowPagesServer:19872)<ec><v0>:41000 
+
+[info 2020/03/30 16:02:04.364 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:19372)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:19372)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:03:01.969 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:19372)<ec><v0>:41000 
+
+[info 2020/03/30 16:05:29.870 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:23452)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:23452)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:06:27.254 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:23452)<ec><v0>:41000 
+
+[info 2020/03/30 16:17:52.908 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:8428)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:8428)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:18:50.329 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:8428)<ec><v0>:41000 
+
+[info 2020/03/30 16:24:40.792 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:6328)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:6328)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:25:39.600 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:6328)<ec><v0>:41000 
+
+[info 2020/03/30 16:27:56.404 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:23060)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:23060)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:28:53.714 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:23060)<ec><v0>:41000 
+
+[info 2020/03/30 16:29:50.860 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:7052)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:7052)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:30:48.518 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:7052)<ec><v0>:41000 
+
+[info 2020/03/30 16:38:47.080 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:23556)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:23556)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:39:45.031 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:23556)<ec><v0>:41000 
+
+[info 2020/03/30 16:50:40.575 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:3600)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:3600)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:51:39.236 SGT <Cache Server Load Polling Thread> tid=0x3c] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:3600)<ec><v0>:41000 
+
+[info 2020/03/30 16:53:47.863 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:17744)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:17744)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:54:31.748 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:22812)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:22812)<ec><v0>:41000{lead}]
+
+[info 2020/03/30 16:55:29.223 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:22812)<ec><v0>:41000 
+
+[info 2020/03/31 10:40:38.903 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:11360)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:11360)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:08:35.592 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:26088)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:26088)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:09:33.911 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:26088)<ec><v0>:41000 
+
+[info 2020/03/31 11:16:11.113 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:9984)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:9984)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:17:09.049 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:9984)<ec><v0>:41000 
+
+[info 2020/03/31 11:22:22.963 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:26964)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:26964)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:23:20.625 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:26964)<ec><v0>:41000 
+
+[info 2020/03/31 11:25:55.130 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:1732)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:1732)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:26:54.963 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:1732)<ec><v0>:41000 
+
+[info 2020/03/31 11:29:34.293 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:7184)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:7184)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 11:30:33.436 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:7184)<ec><v0>:41000 
+
+[info 2020/03/31 13:06:50.896 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:27168)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:27168)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 13:07:49.065 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:27168)<ec><v0>:41000 
+
+[info 2020/03/31 13:11:27.027 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:20508)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:20508)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 13:12:26.181 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:20508)<ec><v0>:41000 
+
+[info 2020/03/31 16:51:52.642 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:25208)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:25208)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 16:52:49.856 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:25208)<ec><v0>:41000 
+
+[info 2020/03/31 16:56:28.470 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:6656)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:6656)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 16:57:26.213 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:6656)<ec><v0>:41000 
+
+[info 2020/03/31 17:49:35.765 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:26700)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:26700)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 17:50:33.564 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:26700)<ec><v0>:41000 
+
+[info 2020/03/31 17:54:42.371 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:21464)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:21464)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 17:55:59.182 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 17:56:56.182 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000 
+
+[info 2020/03/31 18:57:26.576 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000 
+
+[info 2020/03/31 19:57:56.978 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000 
+
+[info 2020/03/31 20:58:29.857 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:19564)<ec><v0>:41000 
+
+[info 2020/03/31 21:25:01.731 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:9012)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:9012)<ec><v0>:41000{lead}]
+
+[info 2020/03/31 21:25:59.196 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:9012)<ec><v0>:41000 
+
+[info 2020/04/01 14:15:28.272 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:11380)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:11380)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 14:16:27.791 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:11380)<ec><v0>:41000 
+
+[info 2020/04/01 14:21:43.789 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:7588)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:7588)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 14:22:41.973 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:7588)<ec><v0>:41000 
+
+[info 2020/04/01 14:39:21.742 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:2820)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:2820)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 14:40:18.869 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:2820)<ec><v0>:41000 
+
+[info 2020/04/01 14:58:48.347 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:16848)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:16848)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 14:59:45.794 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:16848)<ec><v0>:41000 
+
+[info 2020/04/01 15:03:05.031 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:9484)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:9484)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 15:04:02.651 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:9484)<ec><v0>:41000 
+
+[info 2020/04/01 15:21:47.281 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationOne:6112)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationOne:6112)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 15:22:01.242 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(ClientApplicationOne:6112)<ec><v0>:41000 
+
+[info 2020/04/01 15:24:24.988 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationOne:16428)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationOne:16428)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 15:25:12.185 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(ClientApplicationOne:16428)<ec><v0>:41000 
+
+[info 2020/04/01 16:08:53.424 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationTwo:16532)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationTwo:16532)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 16:09:50.309 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(ClientApplicationTwo:16532)<ec><v0>:41000 
+
+[info 2020/04/01 16:32:52.184 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:14408)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:14408)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 16:33:51.837 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(YellowPagesServer:14408)<ec><v0>:41000 
+
+[info 2020/04/01 17:10:43.158 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationTwo:17400)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationTwo:17400)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:11:20.473 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(ClientApplicationTwo:17400)<ec><v0>:41000 
+
+[info 2020/04/01 17:17:27.004 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationTwo:12064)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationTwo:12064)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:18:54.342 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.1.12(ClientApplicationTwo:12064)<ec><v0>:41000 
+
+[info 2020/04/01 17:19:33.731 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:12372)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:12372)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:20:10.476 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(YellowPagesServer:12372)<ec><v0>:41000 
+
+[info 2020/04/01 17:23:28.639 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(ClientApplicationTwo:13348)<ec><v0>:41000|0] members: [192.168.1.12(ClientApplicationTwo:13348)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:24:53.658 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:17544)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:17544)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:25:15.900 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(YellowPagesServer:17544)<ec><v0>:41000 
+
+[info 2020/04/01 17:33:06.091 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:2064)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:2064)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:33:44.180 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(YellowPagesServer:2064)<ec><v0>:41000 
+
+[info 2020/04/01 17:36:29.380 SGT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.12(YellowPagesServer:14060)<ec><v0>:41000|0] members: [192.168.1.12(YellowPagesServer:14060)<ec><v0>:41000{lead}]
+
+[info 2020/04/01 17:36:51.594 SGT <Cache Server Load Polling Thread> tid=0x3b] server count: 1 connected client count: 1 client subscription queue count: 1
+  current servers : 192.168.1.12(YellowPagesServer:14060)<ec><v0>:41000 

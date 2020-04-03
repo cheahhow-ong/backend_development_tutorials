@@ -2,7 +2,6 @@ package com.springcache.ehcache_1.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -23,7 +22,7 @@ public class CalculationService {
         return factor1 * factor2;
     }
 
-//    Evicted only for areaOfCircle
+    //    Evicted only for areaOfCircle
     @CacheEvict(cacheNames = {"areaOfCircleCache"}, allEntries = true)
     public void evictCache() {
         LOG.info("Evict all cache entries...");

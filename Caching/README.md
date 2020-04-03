@@ -1,8 +1,25 @@
-## **Caching (using different ways: EhCache, Redis, Apache Geode)**
+## **Caching with Spring Boot (EhCache, Redis, Apache Geode)**
 
-**Tutorial:**
+## **Concept of Caching**
+![](.README_images/concept of caching.png)
+
+## **Concept of Local Caching (embedded)**
+![](.README_images/concept of local caching.png)
+
+## **Concept of Distributed Caching (client-server)**
+![](.README_images/concept of distributed caching.png)
+
+## **Pros & Cons**
+![](.README_images/pros&cons.png)
+
+## **Learning Resources**
+**General Links and Tutorial:**
 - https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/
 - https://www.youtube.com/watch?v=ccfQ1j4suN0
+- https://tanzu.vmware.com/content/blog/cache-rules-everything-around-me-when-to-use-redis-and-when-to-use-pivotal-cloud-cache
+- https://tanzu.vmware.com/content/blog/an-introduction-to-look-aside-vs-inline-caching-patterns
+- https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
+- https://medium.com/datadriveninvestor/all-things-caching-use-cases-benefits-strategies-choosing-a-caching-technology-exploring-fa6c1f2e93aa
 
 **Ehcache:**
 
@@ -17,41 +34,13 @@
 
 **Apache Geode**
 - https://www.youtube.com/watch?v=qUs3ftvsEoU
+- https://www.youtube.com/watch?v=OvY5wzCtOV0
+- https://www.youtube.com/watch?v=qUs3ftvsEoU
 - http://www.ynovytskyy.com/2018/03/15/apache-geode-pivotal-gemfire-with-spring-data.html
+- https://docs.spring.io/spring-boot-data-geode-build/current/reference/html5/guides/getting-started.html#geode-samples-getting-started-spring-initializer
+- https://docs.spring.io/spring-boot-data-geode-build/current/reference/html5/#geode-samples
 
-## **What are the difference between using EhCache v.s. Redis/Geode? When should use EhCache and when should use Redis/Geode?**
+## **What are the differencec between using EhCache v.s. Redis/Geode?**
  
-- You can think Redis as a shared data structure, while Ehcache is a memory block storing serialized data objects. This is the main difference.
-
-- Redis as a shared data structure means you can put some predefined data structure (such as String, List, Set etc) in one language and retrieve it in another language. This is useful if your project is multilingual, for example: Java the backend side , and PHP the front side. You can use Redis for a shared cache. But it can only store predefined data structure, you cannot insert any Java objects you want.
-
-- If your project is only Java, i.e. not multilingual, Ehcache is a convenient solution.
-
-## **Redis v.s. Geode**
-
-- Redis is primarily a standalone Key-Value store, driven by Salvatore Sanfilippo, HA and sharding options (Sentinel, Cluster) were built at a much later time. Redis is blazing fast, and if you favor performance over consistency, Redis is a good choice. Redis only security feature is password-based authentication, but you would rather secure it on transport-level which requires additional effort. There's no support besides the community or if you opt for a commercial Redis product (such as RedisLabs).
-
-- Geode (Open-Sourced Pivotal GemFire about a year ago, nowadays GemFire is based on Geode) is a product driven by Pivotal for many years. It's built with consistency, HA, and data distribution in mind – call it an in-memory data grid. The security layer of Geode is extensible and pluggable so you can tailor it to your needs. If you want to get commercial support, then Pivotal can serve you with your needs.
-
-## **Use Cases For An In-Memory Data Grid (Geode)**
-
-**Transaction Processing:**
-
-- Support extremely large numbers of concurrent transactions.
-- More reliable, scalable and faster transactional experience for customers
-
-**Event Notification and Processing:**
-
-- Able to process live and historical data sets quickly enough to make this kind of analysis possible.
-- Fast, continuous querying capability.
-
-**Highly Available, Distributed Caching:**
-
-- Can serve as a caching layer for existing application, providing fast recall of frequently accessed data.
-- Able to serve requests despite server outages and across WAN connections.
-- Thus, allow continuous availability with very low-latency, supporting sophisticated caching solutions ranging from web session caching to mainframe offloading.
-
-**Compute/Data Grid:**
-
-- Able to process very large data streams in-memory, without transferring the data to a separate analytics system
-- Allows for fast access and rich data analysis.
+- EhCache is for **local caching**. In a microservices architecture, it means that what you cache is only for your own own and is not shareable with other peer application.
+- Redis/Geode is for distributed caching. That means let's say I have 5 instances of a CRM Application (or we call it Customer MS), all 5 of them will construct their cache at Redis/Geode servers and be able to share the cache.
